@@ -1,2 +1,260 @@
-# English-2311-Project-3-Website-Blog
-This is where I will be hosting my website using HTML to create.
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content=""width=device-width, initial-scale="1">
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+    }
+    /*style the header note*/
+.header {
+    padding: 80 px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+/*note Increase the font size of the h1 element*/
+.header h1 {
+    font-size: 40 px;
+}
+</style>
+</head>
+<body>
+    <div class="header">
+        <h1>Ephemeral Arte</h1>
+        <p> ephem·​er·​al : something that lasts for a very short time : something ephemeral</p>
+    </div>
+    <div class="header">
+    <h2>Welcome to my blog! This blogsite is an accumulation of all the things I've learned in my technical writing class and all the resources that have helped me along my journey of creation that I want to share with others. 
+        If you enjoy video games, art, music, or any form of digital content creation, I hope you find something here that inspires you to create something of your own.</h2>
+</div>
+<style>* 
+{
+    box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+ .header {
+    padding: 80 px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+ }
+ .header h1 {
+    font-size: 40 px;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>How I Made This Blogsite Using HTML and CSS</h2>
+      <h5>Tired of paying for web hosting domains? Me too. Reclaim the ability to access information freely the way the internet intended. Scroll to read more. March 18, 2026</h5>
+      <img src="c:\Users\Sweet\OneDrive\Pictures\sharyoutube thumbnail.png" alt="YouTube Thumbnail" width="400" height="200">
+      <p><a href="https://www.youtube.com/watch?v=_tWh4cYCTv0" target="_blank">Watch the Video</a></p>
+      <small><p>Image by Shar via Youtube</p></small>
+      <p>Prior to deciding on a major in Computer science I would not describe myself as "tech savvy" I was the opposite. I didn't view using a computer as a skill, I viewed it as a tool that I had to use to get things done until I learned about the wide range of capabailities to use it to create things. 
+        I had no idea how to make a website, but I wanted to make one. So I did what I always do when I want to learn something new, I went on YouTube.
+        I started with learning how to make websites on WIX, suddenly navigating the website was very different than it was before. I figured the best way to control and customize my website was to learn how to code it myself. So I searched "how to make a website using HTML and CSS" and found a video by YouTuber, Shar, that taught me how to make a website using HTML and CSS.
+        Here is a summary of the video and the steps I took to make this website:
+        <ul><h3><b>Install a Text Editor</b></h3>
+            
+            <li>First, You will need a text editor and a web browser. I primarily use Visual Studio Code and Google Chrome. You can also use other editors like CLion or Atom.</li>
+            <h3><b>Planning Your Website</b></h3>
+            <li>Before we start programming, we must start to plan out the layout of your website. You can use tools like Figma or Photoshop. Create a wire frame of how you plan each section and column to be. This will determine how we will code and format later using CSS.
+                Decide on your color scheme and font choices. A palette of four colors is all you need. Starting with black and white the next two colors are your choice. For color guides I used w3schools for color codes and palette suggestions. I decided to use Arial and sans-serif are good choices for readability. 
+                Creating a wireframe can help you organize your thoughts as there are many components in creating a website such as layout, design, and functionality.</li>
+
+            <h3><b>Programming</b></h3>
+
+            <li>There's no getting around it, It's time to program. I used w3schools as a reference for HTML and CSS guides. If you are new to programming I would recommend starting with a tutorial on HTML basic on CodeAcademy click here: <a href="https://www.codecademy.com/learn/learn-html" target="_blank">Learn HTML</a>. 
+                If you are on a time crunch then I would consider using a website builder like Wix or Squarespace as they have templates and drag and drop features that can simplify the process of creating a website. However, learning how to code your own website can give you more control and customization options.</li>
+                 Start by creating the basic HTML structure and then add CSS to style it. You can access this project on github: <a href="https://github.com/yourusername/yourproject" target="_blank">Your Project</a></li>
+            <h3><b>Design and Accessibility</b></h3>
+                <li>Is your website user-friendly?Mentioned in the youtube tutorial by Shar,a great resource for checking to see if your website is accessible called, Checklist Design that gives you a checklist of user accessibility reminders to consider. 
+                Websites such as WebAIM (Web Accessibility In Mind) also provide extensive guidlines for ensuring your website is accessible to all users.</li>
+
+               <h3><b>Deployment</b></h3>
+
+            <li>How to host your website. Shar explains the process of deploying a website and provides resources for finding a web hosting provider. 
+                Noting that when you are creating a website at your home computer you are using a local server. When you are ready to share your website with the world, you will need to deploy it to a web hosting provider.
+            Shar used Vercel for deployment. For my blogsite I used Netlify as it is compatiable with Github and free to use. 
+            Using website creation tools like Wix or Squarespace can also simplify the deployment process however they may require a subscription or a cluttered domain name which will make it harder to get traffic to your site.</li>
+            <break>
+        </ul>
+        Overall, making a website using HTML and CSS is a great way to learn about web development and create a personalized online presence. With the right resources and a bit of practice, anyone can create a website that is both functional and visually appealing.
+        It has taken me years to learn how to make a website and I am still learning new things about web development every day. I hope this summary of the video and the steps I took to make this website can help others who are interested in learning how to create their own website.
+
+      </p>
+    </div>
+    <div class="card">
+      <h2>Ephemeral Art: Food Edition - Making 5 Spice Sichuan Blueberry Jam</h2>
+      <h5>My transition into pursuing Video Game Production started with a full-time job as a line cook where I learned how to make jams, pickles, and mustards and the importance of taking things slow. Read below to get the customers favorite sichuan blueberry jam recipe, March 18, 2026</h5>
+      <img src="c:\Users\Sweet\OneDrive\Documents\blueberrytoast.png" alt="Blueberry Toast" width="800" height="400">
+      <p>Prior to pursuing my degree in Video Game Production, I worked in the kitchen where I was given full creative freedom to make a variety of jams, mustards and pickles. I enjoyed being behind the scenes creating experiences for others to enjoy. 
+         It was in the quiet moments in the kitchen that inspired creative epiphany and my appetite to learn more. 
+
+<uI>
+    Here is my recipe for the customers favorite sichuan blueberry jam: 
+</uI>
+
+<ul>
+    <b>Ingredients:</b>
+    <li>1 qt of blueberries</li>
+    <li>1 qt of sugar</li>
+    <li>4 tablespoon of lemon juice</li>
+    <li>1 teaspoon of sichuan peppercorns</li>
+    <li>1 teaspoon of Star Anise</li>
+    <li>1 teaspoon of cinnamon</li>
+    <li>5 cloves </li>
+    <li>1 teaspoon of fennel seeds</li>
+<uI><sub> <b>Note:</b>  Jams should be ATLEAST 45% fruit and 55% sugar. This recipe is a 50/50 ratio of fruit to sugar. If using frozen blueberries, make sure to thaw them and drain the excess water before using.</uI></sub>
+
+</ul>
+<b>Instructions:</b>
+<ul>
+    <li>In a large pot, combine the blueberries, sugar, and lemon juice. Bring to a boil over medium-high heat, stirring occasionally.</li>
+    <li>Once the mixture comes to a boil, reduce the heat to low and let it simmer for about 30 minutes, or until the blueberries have broken down and the mixture has thickened.</li>
+    <li>In a separate pan, toast the sichuan peppercorns, star anise, cinnamon, cloves, and fennel seeds over medium heat until fragrant. Be careful not to burn them.</li>
+    <li>Once toasted, grind the spices into a fine powder using a spice grinder or mortar and pestle.</li>
+    <li>Add the ground spices to the blueberry mixture and stir well to combine. Let it simmer for an additional 10 minutes to allow the flavors to meld together.</li>
+    <li>Remove the pot from heat and let it cool slightly before transferring the jam to sterilized jars. Seal the jars and let them cool completely before storing in the refrigerator.</li>
+
+Note:  This jam can be stored in the refrigerator for up to 2 weeks or can be canned using a water bath canning method for longer shelf life. Always make sure to use sterilized jars and follow proper canning procedures to ensure the safety of your homemade jam.
+</p>
+
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <img src="c:\Users\Sweet\OneDrive\Desktop\Art Junk 2019\FB Profile Picture.png" alt="Profile Picture" width="200" height="200"></div>
+      <p>Howdy! My name is Celeste Jolene Flores but my friends call me Jolene or Jo. I'm currently studying video game production at Northwest Vista College, majoring in Computer Science.
+        I enjoy a variety of digital content creation, such as making music, writing scripts, and creating 3D models. 
+        My favortite applications for content creation are Adobe Suites, Figma, CSP, 3ds Max, Blender, and Unreal Engine.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <img src="c:\Users\Sweet\OneDrive\Documents\Htmlthumbnail.png" alt="HTML Thumbnail" width="500" height="200">
+      <img src="c:\Users\Sweet\OneDrive\Documents\jam.png" alt="Spice Thumbnail" width="500" height="200">
+      <img src="c:\Users\Sweet\OneDrive\Documents\storyboardsthumbnail.png" alt="Storyboard Thumbnail" width="500" height="200">
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p><b>Instagram:</b> @ephemeral.arte
+       <p><b>Github:</b> mojojolene</p>
+    </div>
+  </div>
+</div>
+<div class="row">
+    <div class="left column">
+        <div class="card">
+        <h2>The Importance of Thumbnails and Storyboards: For comic artists, directors, and creative professionals</h2>
+        <h5> It all starts with thumbnails, learn how to use thumbnails in your creative process. March 18, 2026</h5>
+        <img src="c:\Users\Sweet\Downloads\parasitebooklarge.jpg" alt="Parasite Book" width="800" height="300">
+        <p>"Science says: Putting pen to paper is better for learning than typing on a keyboard."
+            Sometimes a fresh sheet of sketchbook paper is too daunting for drafting ideas down. That's where thumbnails come to play. The first time I was introduced to thumbnailing was my first year of art class in Highschool. 
+            Before our art teacher even let us touch the art supplies we had to first create thumbnail sketches. 
+            What are Thumbnails? Thumbnails are a reduced version of a full image, you may be most familiar with them often seen as preview thumbnails on a file folder in your computer before you expand the full image.
+            In the art world, thumbnails are used by film directors, storyboard artists, and graphic designers.They are an envisioned miniature sketch of composited shots for film, where key poses for animations are drafted, or even a sketch of a full size portrait. 
+            Thumbnails can be used in a variety of contexts and scenarios.  Often new artists may miss this preliminary step as they are eager to put pen to paper, however thumbnail art is essential to getting your ideas down.
+            Thumbnail Sketch Methods:
+            <ul>
+                <li><B>Thumbnailing with a pen and paper:</B> This is the most traditional method of thumbnailing, and it can be done with any type of pen or pencil. The key is to keep the sketches small and simple, focusing on the overall composition and layout of the image.</li>
+                <li><B>Thumbnailing with a digital drawing tablet:</B> This method allows for more flexibility and precision than traditional thumbnailing, as you can easily make changes and adjustments to your sketches. Many artists use software like Photoshop or Procreate to create their thumbnails.</li>
+                <li><B>Thumbnailing with a whiteboard or sticky notes:</B> This method is often used in collaborative settings, such as film production or graphic design teams. It allows for quick and easy sketching and brainstorming, and can be easily erased and modified as needed.</li>
+                <li><B>Thumbnailing using Figma:</B> a web-based design tool that allows for collaborative design and prototyping. Similar software such as Adobe XD or Sketch can also be used for this purpose.</li>
+            </ul>
+            Here are some examples of how thumbnails can be used in different creative contexts:
+                <ul>
+                    <li><b>Bong Joon Ho: Parasite - Film production:</b> Directors and storyboard artists use thumbnails to plan out the shots and compositions for a film. They create thumbnail sketches of each scene, which helps them visualize the overall flow and pacing of the film.
+                    In the film Parasite, director Bong Joon Ho used thumbnails to plan out the shots and compositions for the film. He created thumbnail sketches of each scene, which helped him visualize the overall flow and pacing of the film. This allowed him to create a visually stunning and emotionally impactful film that won multiple awards, including the Academy Award for Best Picture.
+                </li>
+                
+                
+                <img src="c:\Users\Sweet\Downloads\Parasitestoryboard.jpg" alt="Parasite Film" width="200" height="300"> <img src="c:\Users\Sweet\Downloads\parasitestoryboardbook.jpg" alt="Parasite Storyboard Book" width="600" height="300">
+                <small><p> Parasite Storyboard is licensed by Bong Joon Ho. </p></small>
+                <li><b>The Lion King - Animation:</b> Animators use thumbnails or "storyboards" to plan out the key poses and plot points for their animations. They create thumbnail sketches of each frame, which helps them visualize the overall movement and timing of the animation.
+                    In the animated film Lion King, there was an alternate ending that was being decided in the writers room. The writers were debating whether to have the main character, Simba, die at the end of the film or to have him survive. 
+                    To help them visualize the different options, they created storyboards of this alternate ending. This allowed them to see how each ending would play out and ultimately led them to choose the ending where Simba survives, which became one of the most iconic moments in the film.
+                </li>
+                    <img src="c:\Users\Sweet\OneDrive\Pictures\lionkingstoryboard.jpg" alt="Lion King Storyboard" width="600" height="300">
+                    <a href="https://www.youtube.com/watch?v=y14TwUGQ3xE" target="_blank">Watch the Video</a>
+                    <small><p> "The Lion King - Alternate Ending (Storyboard)" is licensed by Disney. </p></small>
+                <li><b>Fallout 4 - Video Game design:</b> Video game designers use thumbnails to plan out the layout and composition of their designs. They create thumbnail sketches of each design, which helps them visualize the overall look and feel of the design. Rather you are a storyboard artist, enviornmental artist, or character designer, thumbnails can be a valuable tool for planning and iterating on your ideas.</li>
+        </p>
+        <img src="c:\Users\Sweet\Downloads\FO4Storyboard.jpg" alt="FO4 Storyboard" width="600" height="600">
+        <small><p> "Fallout 4 - Storyboard" is licensed by Bethesda Softworks. </p></small>
+    </div>
+
+</div>
+
+<div class="Citations">
+  <h2>Citations</h2>
+  <p> Youtuber, Shar. “How I Made My Website.” YouTube, youtu.be/_tWh4cYCTv0?si=VBG4wPXoL4EFKtc7. Accessed 5 Mar. 2026. </p>
+  <p> “W3schools.Com.” W3Schools Online Web Tutorials, www.w3schools.com/html/default.asp. Accessed 19 Mar. 2026. </p>
+  <p> “Fallout 4 - Storyboard.” Bethesda Softworks, www.bethesda.net/en/game/fallout-4. Accessed 19 Mar. 2026. </p>
+  <p> “Parasite - Storyboard.” IMDb, www.imdb.com/title/tt6751662/mediaviewer/rm3402800128. Accessed 19 Mar. 2026. </p></p>
+  <p> Disney. “The Lion King - Alternate Ending (Storyboard).” YouTube, YouTube, www.youtube.com/watch?v=y14TwUGQ3xE. Accessed 19 Mar. 2026. </p>
+</div>
+</style>    
+</html>
